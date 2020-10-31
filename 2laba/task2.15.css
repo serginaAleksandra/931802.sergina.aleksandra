@@ -1,0 +1,16 @@
+.inline {
+	display: inline-block;
+	background: aquamarine;
+	width: 155px;
+	height: 80px;
+	margin: 15px;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer {
+	background: bisque;
+}

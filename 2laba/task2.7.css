@@ -1,0 +1,54 @@
+#static {
+	background-color: blueviolet;
+	color: white;
+	width: 160px;
+	height: 100px;
+}
+
+#red {
+	position: relative;
+	color: white;
+	background-color: darkred;
+	width: 160px;
+	height: 100px;
+}
+
+#orange {
+	position: relative;
+	color: white;
+	background-color: peru;
+	width: 160px;
+	height: 100px;
+	transform: translate(30px, -30px);
+}
+
+#pink {
+	position: relative;
+	color: white;
+	background-color: indianred;
+	width: 636px;
+	height: 440px;
+	z-index: 100;
+}
+
+#purple {
+	position: absolute;
+	color: white;
+	background-color: indigo;
+	width: 318px;
+	height: 220px;
+	right: 0;
+	top: 140px;
+
+	
+}
+
+#fixed {
+	position: fixed;
+	color: white;
+	background-color: forestgreen;
+	width: 100px;
+	height: 100px;
+	right: 0;
+	bottom: 0;
+}

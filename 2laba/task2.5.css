@@ -1,0 +1,17 @@
+div.green {
+	background: green;
+	color: white;
+	margin: auto;
+	width: 30%;
+	font-size: 0.75em;
+	margin-bottom: 15px;
+}
+
+div.blue {
+	background: blue;
+	color: white;
+	margin: auto;
+	width: 30%;
+	font-size: 0.75em;
+	padding: 35px;
+}

@@ -1,0 +1,16 @@
+div {
+	display: flex;
+	background: aqua;
+	border: 2px solid green;
+	justify-content: space-between;
+
+}
+
+img {
+	margin: 0;
+}
+
+p {
+	font-size: 12px;
+	margin-top: 0;
+}

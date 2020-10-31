@@ -1,0 +1,22 @@
+.flex-container {
+	background: blue;
+	color: white;
+	margin: auto;
+	width: 430px;
+	font-size: 11px;
+}
+
+img {
+	width: 180px;
+	height: 155px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.flex-container {
+		width: 600px;
+		margin-left: 0;
+	}
+}

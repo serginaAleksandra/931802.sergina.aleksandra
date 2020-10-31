@@ -1,0 +1,45 @@
+.content {
+	background: aqua;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid green;
+}
+
+.yellow {
+	background: bisque;
+	height: 70px;
+	flex: 30%;
+}
+
+.grey {
+	background: darkgrey;
+	margin-left: 3px;
+	margin-right: 3px;
+	flex: 70%;
+}
+
+ul {
+	margin-top: 0;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+p {
+	margin: 0;
+	font-size: 11px;
+}
+
+@media (max-width: 700px) {
+	.content {
+		flex-direction: column;
+	}
+
+	.yellow {
+		width: 100px;
+	}
+
+	.grey {
+		width: 250px;
+		margin: 0;
+	}
+}

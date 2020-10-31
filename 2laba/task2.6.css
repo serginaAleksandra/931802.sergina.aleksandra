@@ -1,0 +1,14 @@
+div.top {
+	margin: auto;
+	width: 30%;
+	font-size: 0.75em;
+	margin-bottom: 15px;
+}
+
+div.bottom {
+	margin: auto;
+	width: 25%;
+	font-size: 0.75em;
+	padding: 28px;
+	border: solid 5px blue; 
+}

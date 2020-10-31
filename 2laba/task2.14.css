@@ -1,0 +1,50 @@
+.content {
+	background: aqua;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid green;
+}
+
+.yellow {
+	background: bisque;
+	height: 70px;
+	flex: 30%;
+}
+
+.grey {
+	background: darkgrey;
+	flex: 70%;
+}
+
+ul {
+	margin-top: 0;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+p {
+	margin: 0;
+	font-size: 11px;
+}
+
+@media (max-width: 700px) {
+	.content {
+	flex-direction: column;
+}
+	.yellow {
+		width: 100%;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding-top: 0;
+	}
+
+	li {
+		display: inline;
+		margin: 0;
+	}
+}

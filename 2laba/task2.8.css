@@ -1,0 +1,46 @@
+.content {
+	background: aqua;
+	display: flex;
+	flex-direction: row;
+}
+
+.yellow {
+	background: bisque;
+	height: 70px;
+	flex: 15%;
+}
+
+.grey {
+	background: darkgrey;
+	flex: 85%;
+}
+
+ul {
+	margin-top: 0;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+p {
+	margin: 0;
+	font-size: 11px;
+}
+
+@media (max-width: 700px) {
+	.yellow {
+		flex: 30%;
+	}
+
+	.grey {
+		flex: 70%;
+	}
+}
+
+footer{
+    position: fixed;
+    background-color: limegreen;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}

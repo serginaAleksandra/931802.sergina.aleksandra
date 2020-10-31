@@ -1,0 +1,58 @@
+.content {
+	background: aqua;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid green;
+}
+
+.yellow {
+	background: bisque;
+	height: 70px;
+	flex: 30%;
+}
+
+.grey {
+	background: darkgrey;
+	flex: 70%;
+}
+
+.top {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+ul {
+	margin-top: 0;
+	font-size: 12px;
+	padding-top: 10px;
+}
+
+p {
+	margin: 0;
+	font-size: 11px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	flex: 50%;
+}
+
+div.top p {
+	flex: 50%;
+}
+
+@media (max-width: 700px) {
+	.yellow {
+		width: 100px;
+	}
+
+	.top {
+		display: block;
+	}
+
+	img {
+		width: 50%;
+		float: right;
+	}
+}
