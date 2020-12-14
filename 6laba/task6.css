@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+}
+
+#allButton {
+	text-align: center; 
+	margin: auto;
+	width: 600px;
+	font-size: 0;
+}
+
+button {
+	background: red;
+	color: white;
+	border: black solid 2px;
+	width: 200px;
+	height: 32px;
+}
+
+#allImg {
+	display: flex;
+	width: 600px;
+	margin: auto;
+}
+
+img {
+	width: 280px;
+	height: 250px;
+	padding: 15px 10px 80px 10px;
+}
+
+#green {
+	background: green;
+}
+
+#blue {
+	background: blue;
+}
+
+.big {
+	width: 420px;
+	padding-right: 150px;
+}
+
+.small {
+	width: 0;
+	padding-right: 10px;
+}
