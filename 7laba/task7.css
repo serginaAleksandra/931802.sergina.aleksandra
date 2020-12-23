@@ -1,0 +1,36 @@
+input {
+    display: block;
+}
+
+button {
+	font-size: 12.5px;
+}
+
+.square {
+	background: red;
+	border: 1px solid black;
+	opacity: 0.8;
+	position: absolute;
+}
+
+.triangle {
+	width: 0;
+	height: 0;
+	opacity: 0.8;
+	position: absolute;
+}
+
+
+.circle {
+	background: green;
+	border: 1px solid black;
+	border-radius: 50%;
+	opacity: 0.8;
+	position: absolute;
+}
+
+div {
+	width: 1247px;
+	height: 525px;
+	margin: 0;
+}
