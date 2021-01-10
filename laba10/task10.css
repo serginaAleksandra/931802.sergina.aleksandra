@@ -1,0 +1,110 @@
+body {
+	background-color: black;
+	margin: 0;
+	overflow: hidden;
+}
+
+#curtain {
+	position: absolute;
+	height: 100vh;
+	width: 100%;
+	background: url(curtain.jpg);
+	background-size: cover;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+#curtain:hover {
+	bottom: 5%;
+    transition: 0.2s;
+}
+
+#lampTop, #lampBottom, #lampSwitcher{
+	width: 250px;
+	position: absolute;
+	left: 640px;
+}
+
+#lampTop {
+	z-index: 4;
+	pointer-events: none;
+}
+
+#lampBottom, #lampSwitcher{
+	top: 28px;
+	z-index: 1;
+}
+
+.up {
+	top: 20px!important;
+}
+
+.noLight {
+	width: 0;
+	height: 0;
+	border-left: 280px solid transparent;
+	border-right: 280px solid transparent;
+	border-bottom: 600px solid yellow;
+	position: absolute;
+	top: 28px;
+	left: 487px;
+	z-index: 3;
+	pointer-events: none;
+	opacity: 0;
+}
+
+.light {
+	opacity: 0.5;
+}
+
+.appear {
+	opacity: 1!important;
+}
+
+#scene {
+	position: relative;
+	height: 100vh;
+	width: 100%;
+}
+
+.girl {
+	position: absolute;
+	width: 300px;
+	top: 400px;
+	left: 550px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.hat {
+	position: absolute;
+	width: 150px;
+	top: 480px;
+	left: 800px;
+	z-index: 2;
+	opacity: 0;
+}
+
+.rabbit {
+	width: 50px;
+	position: absolute;
+	left: 850px;
+	top: 500px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.dove {
+	width: 50px;
+	position: absolute;
+	left: 850px;
+	top: 500px;
+	z-index: 1;
+	opacity: 0;
+}
+
+.replace {
+	top: 400px!important;
+}
+
